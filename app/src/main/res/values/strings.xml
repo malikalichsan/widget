@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Widget</string>
+    <string name="input_number">Enter Number</string>
+    <string name="text_big">Hello All</string>
+</resources>
