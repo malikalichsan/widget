@@ -19,6 +19,23 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="@string/input_number"
-        android:inputType="number"/>
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"/>
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
