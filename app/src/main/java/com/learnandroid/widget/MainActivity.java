@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         imageView = (ImageView)findViewById(R.id.gambar);
-        Glide.with(this).load("https://yhscriminalrecord.com/wp-content/uploads/2017/05/aaa.png").into(imageView);
+        Glide.with(this)
+                .load("https://yhscriminalrecord.com/wp-content/uploads/2017/05/aaa.png")
+                .into(imageView);
     }
 }
